@@ -39,11 +39,11 @@ class DependencyContainer {
     if (_db == null || _db!.state != mongo.State.open) {
       try {
         debugPrint('Attempting to connect to MongoDB...');
-        _db = await mongo.Db.create(_connectionString);
+        _db = await mongo.Db.create(Env.mongoDbConnectionString);
 
         // Set connection timeout
         await _db!.open().timeout(
-          const Duration(seconds: 30Env.mongoDbC
+          const Duration(seconds: 30),
           onTimeout: () {
             throw Exception(
               'MongoDB connection timeout. Please check your internet connection.',
