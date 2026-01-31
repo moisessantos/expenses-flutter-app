@@ -9,7 +9,7 @@ A comprehensive Flutter budgeting application built with clean architecture prin
 - **MongoDB Integration**: Persistent data storage using MongoDB Atlas
 - **Clean Architecture**: Service/Repository pattern with dependency injection
 - **Modern UI**: Material Design 3 with intuitive navigation
-- **Responsive Design**: Works across all Flutter supported platforms
+- **Mobile First**: Optimized for iOS and Android platforms
 
 ## Architecture
 
@@ -175,7 +175,6 @@ Build for production:
 ```bash
 flutter build apk          # Android
 flutter build ios          # iOS
-flutter build web          # Web
 ```
 
 ## Contributing
