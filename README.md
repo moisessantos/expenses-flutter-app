@@ -58,9 +58,16 @@ dart run build_runner build
 ```
 
 4. Configure MongoDB:
-   - The app is pre-configured to connect to MongoDB Atlas
-   - Connection string is in `lib/di/dependency_container.dart`
-   - Update the connection string if needed
+   - Copy the environment template file:
+     ```bash
+     cp lib/config/env.example.dart lib/config/env.dart
+     ```
+   - Edit `lib/config/env.dart` and update the MongoDB connection string with your credentials:
+     ```dart
+     static const String mongoDbConnectionString = 
+         'mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/YOUR_DATABASE';
+     ```
+   - **Important**: Never commit `lib/config/env.dart` to version control (it's already in .gitignore)
 
 5. Run the app:
 ```bash
