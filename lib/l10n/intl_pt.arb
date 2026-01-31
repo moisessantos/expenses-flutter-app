@@ -1,0 +1,105 @@
+{
+  "@@locale": "pt",
+  "appTitle": "Aplicativo de Despesas",
+  "filterByDate": "Filtrar por data",
+  "filterByCategory": "Filtrar por categoria",
+  "allTime": "Todo o Período",
+  "lastWeek": "Última Semana",
+  "lastMonth": "Último Mês",
+  "thisWeek": "Esta Semana",
+  "thisMonth": "Este Mês",
+  "selectRange": "Selecionar Período",
+  "customRange": "Período Personalizado",
+  "noData": "Nenhum dado para exibir",
+  "noExpenses": "Nenhuma despesa encontrada",
+  "noExpensesPeriod": "Nenhuma despesa encontrada para o período selecionado",
+  "addFirstExpense": "Adicione Sua Primeira Despesa",
+  "totalExpenses": "Despesas Totais: {count}",
+  "totalAmount": "Valor Total: ${total}",
+  "expensesByCategory": "Despesas por categoria"
+  ,
+  "loginTitle": "Login",
+  "usernameLabel": "Nome de usuário",
+  "passwordLabel": "Senha",
+  "loginButton": "Login",
+  "authInvalidCredentials": "Nome ou senha inválidos",
+  "welcomeMessage": "Bem-vindo ao seu aplicativo de orçamento",
+  "manageExpenses": "Gere as despesas de forma eficiente",
+  "addNewExpense": "Adicionar Nova Despesa",
+  "addExpenseType": "Adicionar Tipo de Despesa",
+  "viewAllExpenses": "Ver Todas as Despesas",
+  "errorLoadingExpenses": "Erro ao carregar despesas: {error}",
+  "allExpensesTitle": "Todas as Despesas",
+  "sortByDate": "Ordenar por Data",
+  "sortByAmount": "Ordenar por Valor",
+  "sortByTitle": "Ordenar por Título",
+  "pageNotFoundTitle": "Página Não Encontrada",
+  "pageNotFoundMessage": "Página não encontrada: {path}",
+  "goHome": "Ir para Início",
+  "errorLoadingExpenseTypes": "Erro ao carregar tipos de despesa: {error}",
+  "pleaseSelectExpenseType": "Por favor selecione um tipo de despesa",
+  "expenseCreated": "Despesa criada com sucesso!",
+  "errorGeneric": "Erro: {error}",
+  "addExpenseTitle": "Adicionar Despesa",
+  "labelTitle": "Título",
+  "labelDescription": "Descrição",
+  "labelAmount": "Valor",
+  "labelDate": "Data",
+  "labelExpenseType": "Tipo de Despesa",
+  "pleaseEnterTitle": "Por favor insira um título",
+  "pleaseEnterAmount": "Por favor insira um valor",
+  "pleaseEnterValidAmount": "Por favor insira um valor válido maior que 0",
+  "noExpenseTypesAvailable": "Nenhum tipo de despesa disponível.",
+  "createExpenseType": "Criar Tipo de Despesa",
+  "saveExpense": "Salvar Despesa",
+  "expenseTypeCreated": "Tipo de despesa criado com sucesso!",
+  "expenseTypeUpdated": "Tipo de despesa atualizado com sucesso!",
+  "addExpenseTypeTitle": "Adicionar Tipo de Despesa",
+  "updateExpenseTypeTitle": "Atualizar Tipo de Despesa",
+  "updateExpenseType": "Atualizar Tipo de Despesa",
+  "labelName": "Nome",
+  "labelSelectColor": "Selecionar Cor",
+  "pleaseEnterName": "Por favor insira um nome",
+  "pleaseEnterDescription": "Por favor insira uma descrição",
+  "saveExpenseType": "Salvar Tipo de Despesa",
+  "unknown": "Desconhecido",
+  "expenseTypesTitle": "Tipos de Despesa",
+  "viewExpenseTypes": "Ver Tipos de Despesa",
+  "noExpenseTypesYet": "Ainda não há tipos de despesa",
+  "addFirstType": "Adicione o Primeiro Tipo",
+  "deleteExpenseType": "Excluir Tipo de Despesa",
+  "deleteExpenseTypeConfirm": "Tem certeza de que deseja excluir \"{name}\"? Esta ação não pode ser desfeita.",
+  "@deleteExpenseTypeConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancelar",
+  "delete": "Excluir",
+  "expenseTypeDeleted": "{name} excluído com sucesso",
+  "@expenseTypeDeleted": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorDeletingExpenseType": "Erro ao deletar tipo de despesa: {error}",
+  "@errorDeletingExpenseType": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotDeleteExpenseTypeInUse": "Não é possível deletar este tipo de despesa porque está sendo usado por {count} despesa(s)",
+  "@cannotDeleteExpenseTypeInUse": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

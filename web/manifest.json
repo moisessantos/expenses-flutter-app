@@ -1,0 +1,40 @@
+{
+  "name": "Expenses App - Budget Tracker",
+  "short_name": "Expenses",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0175C2",
+  "theme_color": "#0175C2",
+  "description": "Track and manage your personal expenses with ease. A comprehensive budgeting app for better financial control.",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "scope": "/",
+  "categories": ["finance", "productivity", "utilities"],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

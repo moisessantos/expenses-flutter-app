@@ -1,0 +1,105 @@
+{
+  "@@locale": "en",
+  "appTitle": "Expenses App",
+  "filterByDate": "Filter by Date",
+  "filterByCategory": "Filter by Category",
+  "allTime": "All Time",
+  "lastWeek": "Last Week",
+  "lastMonth": "Last Month",
+  "thisWeek": "This Week",
+  "thisMonth": "This Month",
+  "selectRange": "Select Range",
+  "customRange": "Custom Range",
+  "noData": "No data to display",
+  "noExpenses": "No expenses found",
+  "noExpensesPeriod": "No expenses found for selected period",
+  "addFirstExpense": "Add Your First Expense",
+  "totalExpenses": "Total Expenses: {count}",
+  "totalAmount": "Total Amount: ${total}",
+  "expensesByCategory": "Expenses by Category"
+  ,
+  "loginTitle": "Login",
+  "usernameLabel": "User name",
+  "passwordLabel": "Password",
+  "loginButton": "Login",
+  "authInvalidCredentials": "Invalid name or password",
+  "welcomeMessage": "Welcome to Your Budget App",
+  "manageExpenses": "Manage your expenses efficiently",
+  "addNewExpense": "Add New Expense",
+  "addExpenseType": "Add Expense Type",
+  "viewAllExpenses": "View All Expenses",
+  "errorLoadingExpenses": "Error loading expenses: {error}",
+  "allExpensesTitle": "All Expenses",
+  "sortByDate": "Sort by Date",
+  "sortByAmount": "Sort by Amount",
+  "sortByTitle": "Sort by Title",
+  "pageNotFoundTitle": "Page Not Found",
+  "pageNotFoundMessage": "Page not found: {path}",
+  "goHome": "Go Home",
+  "errorLoadingExpenseTypes": "Error loading expense types: {error}",
+  "pleaseSelectExpenseType": "Please select an expense type",
+  "expenseCreated": "Expense created successfully!",
+  "errorGeneric": "Error: {error}",
+  "addExpenseTitle": "Add Expense",
+  "labelTitle": "Title",
+  "labelDescription": "Description",
+  "labelAmount": "Amount",
+  "labelDate": "Date",
+  "labelExpenseType": "Expense Type",
+  "pleaseEnterTitle": "Please enter a title",
+  "pleaseEnterAmount": "Please enter an amount",
+  "pleaseEnterValidAmount": "Please enter a valid amount greater than 0",
+  "noExpenseTypesAvailable": "No expense types available.",
+  "createExpenseType": "Create Expense Type",
+  "saveExpense": "Save Expense",
+  "expenseTypeCreated": "Expense type created successfully!",
+  "expenseTypeUpdated": "Expense type updated successfully!",
+  "addExpenseTypeTitle": "Add Expense Type",
+  "updateExpenseTypeTitle": "Update Expense Type",
+  "updateExpenseType": "Update Expense Type",
+  "labelName": "Name",
+  "labelSelectColor": "Select Color",
+  "pleaseEnterName": "Please enter a name",
+  "pleaseEnterDescription": "Please enter a description",
+  "saveExpenseType": "Save Expense Type",
+  "unknown": "Unknown",
+  "expenseTypesTitle": "Expense Types",
+  "viewExpenseTypes": "View Expense Types",
+  "noExpenseTypesYet": "No expense types yet",
+  "addFirstType": "Add Your First Type",
+  "deleteExpenseType": "Delete Expense Type",
+  "deleteExpenseTypeConfirm": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+  "@deleteExpenseTypeConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "expenseTypeDeleted": "{name} deleted successfully",
+  "@expenseTypeDeleted": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorDeletingExpenseType": "Error deleting expense type: {error}",
+  "@errorDeletingExpenseType": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotDeleteExpenseTypeInUse": "Cannot delete this expense type because it is being used by {count} expense(s)",
+  "@cannotDeleteExpenseTypeInUse": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
